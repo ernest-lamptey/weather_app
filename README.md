@@ -40,3 +40,4 @@ This Simple Weather Web Page is licensed under the MIT License. See the `LICENSE
 - Build this application again with a frontend library to enhance the security
 - Animate styling to respond to the weather description
 - Improve the overall design and user experience
+- Run the search when the user hits "Enter" on keyboard
