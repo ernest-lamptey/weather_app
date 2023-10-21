@@ -2,7 +2,6 @@
 import { apiKey } from "./environment.js";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-console.log(process.env.APIKEY);
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
@@ -18,7 +17,7 @@ async function checkWeather(city) {
 
     let data = await response.json();
     //TODO: Delete this 
-    console.log(data);
+    // console.log(data);
 
     document.querySelector(".city").innerHTML = data.name;
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "&deg;c";
