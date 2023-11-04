@@ -41,3 +41,4 @@ This Simple Weather Web Page is licensed under the MIT License. See the `LICENSE
 - Animate styling to respond to the weather description
 - Improve the overall design and user experience
 - Run the search when the user hits "Enter" on keyboard
+- Use HTML5 Geolocation API to get weather info. This feature however requires that the page runs on https and the workaround I found requires the creation of a self signed certificate which is a bit of a long setup. I will work on it.
